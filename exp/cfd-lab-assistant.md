@@ -5,12 +5,12 @@ Coming from a software background I was put onto the task of helping perform dat
 
 As I continued working there, I got involved with more technical tasks. This was also one of several endeavors I did that semester. I has a full 18 credit course load and was also a teaching assistant. Working two jobs with such circumstances proved to be challenging. I also flunked my Amazon and Facebook interviews during that semester.
 
-![schedule](images/schedule.png)
+![schedule](../images/schedule.png)
 
 #### Part 1
 My first task was to develop a combined plot for various detectors that measured dark current versus temperature. Dark current is a property that measures the amount of residual current in a device after photons have been emitted. This is impacted by the temperature in an exponential relationship. For the purposes of detectors, dark current directly contributes to noise within a detector and must be minimized as much as possible. Below is the resulting plot that I worked on generating.
 
-![image](images/darkjumbojumbo_sample.jpg)
+![image](../images/darkjumbojumbo_sample.jpg)
 
 To generate the image, IDL code was ran on the main server hosting the data sets. IDL was originally written by Harris (now L3Harris) and became the programming language of choice for data visualizations for many areas of imaging and space.
 
@@ -20,7 +20,7 @@ integrating the C and C++ code together.
 
 The next major task I worked on was important and involved determining if the apparatus that housed the detectors would work at two possible observatories we would be testing at. This involved finding the dimensions of the observatory and the two different apparatus' dimensions. The calculations involved diagramming a lens system and performing ray tracing through the system to determine if all rays would land within the area of the detector. If a ray landed outside of the bounds, this would cause vignetting. There were several calculations to be made and I spent significant time finding the exact dimensions to be certain of the results. The lens system I ended up drawing had some additional dimensions to find using trigonometry.
 
-![diagram](images/vignette_diagram.png)
+![diagram](../images/vignette_diagram.png)
 
 During this time, I was also tasked with replacing the batteries within an APC regulated power supply. The old batteries had swelled significantly to the point where the frame needed to be dismantled, the batteries taken out, and the frame's rivets replaced. Thanks to John Nash for providing me the tools and assistance for completing this task.
 
